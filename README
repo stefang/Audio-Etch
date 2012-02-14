@@ -2,4 +2,6 @@ Audio Etch
 
 Originally devised to create a stereo visualisation of an audio track to etch on the flip side of a single sided 12" single. The band didn't go with the idea so it's free to release.
 
+You'll need to split the source stereo audio file into two mono WAV or AIF files with a .L and .R extension respectively. Drag and Drop these onto the Processing IDE to move them into the /data/ directory, amend the filename at the top of the sketch then run it. It'll take a few seconds (depending on how long the audio files are) then it will bring up the image and save the PDF into the /out/ directory. 
+
 It outputs a PDF document that will need cleaning up before it's ready to use for etching. You'll need to remove the white background block and then select all and use the "Unite" Pathfinder tool to join the slivers into solid vector shapes.
